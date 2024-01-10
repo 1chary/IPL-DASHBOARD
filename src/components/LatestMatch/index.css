@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.detailsCardContainer {
+  background-color: #1e293b;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.inRow {
+  display: flex;
+}
+
+.arrangeInColumn {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  margin-left: 10px;
+}
+@media screen and (max-width: 767px) {
+  .arrangeInColumn {
+    width: 100%;
+  }
+}
+
+.whiteColor {
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'Bree Serif';
+}
+
+.venue {
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'Bree Serif';
+}
+@media screen and (min-width: 768px) {
+  .whiteColor {
+    font-size: 16px;
+  }
+  .venue {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .opponentTeamLogo {
+    height: 100px;
+    width: 100px;
+  }
+}

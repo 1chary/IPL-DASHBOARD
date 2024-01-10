@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.individualCardContainer {
+  height: 200px;
+  width: 45%;
+  background-color: #ffffff33;
+  margin-right: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.teamImage {
+  height: 160px;
+  width: 160px;
+}
+
+@media screen and (max-width: 767px) {
+  .teamImage {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+.teamName {
+  color: white;
+  font-size: 32px;
+  font-family: 'Bree Serif';
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .teamName {
+    font-size: 14px;
+  }
+}
